@@ -47,19 +47,19 @@ public class IntLinkedList {
     public void append2(int value) 
     {
         //create a new node first
-        Node temp = new Node(value);
+        Node tmpNode = new Node(value);
  
         // If the list is empty, the new node become head 
         if (head == null) {
-            head = temp;
+            head = tmpNode;
         }
         else {
             //append the new node after last node
-            Node last = head; 
-            while (last.next != null) { 
-                last = last.next; 
+            Node lastNode = head; 
+            while (lastNode.next != null) { 
+            	lastNode = lastNode.next; 
             }
-            last.next = temp; 
+            lastNode.next = tmpNode; 
         }
     }
     
