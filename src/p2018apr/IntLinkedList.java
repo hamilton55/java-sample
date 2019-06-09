@@ -149,8 +149,6 @@ public class IntLinkedList {
 	 * delete option #3
 	 * adding a helper node before head to make logic clearer
 	 * similar to other general cases of using two pointers for linked list
-	 * no worry about the memory for the node, non-referenced object will be GC'ed
-	 * in c or c++,then need to handle memory releasing
 	 */
 	
 	public void deleteNodeAboveValue2(int val) {
